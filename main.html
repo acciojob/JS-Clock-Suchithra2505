@@ -66,7 +66,11 @@
       transform: rotate(90deg);
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+		
     }
+	  .hand.min-hand {
+  transform: rotate(90deg) matrix(0.809017, 0.587785, -0.587785, 0.809017, 0, 0);
+}
 </style>
 
 <script src="./script.js"></script>
